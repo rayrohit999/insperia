@@ -44,13 +44,14 @@
                         <div class="row align-items-center">
                             <div class="col-12">
                                 <div class="college-banner d-flex align-items-center justify-content-center text-center">
-                                    <img src="img/logo.png" alt="College Logo" class="college-logo">
+                                    <img src="img/logo.png" alt="College Logo" class="college-logo" style="margin-right: 50px;">
                                     <div class="college-name">
-                                        <h5>PIMPRI CHINCHWAD EDUCATION TRUST's</h5>
+                                        <h5 align="center">PIMPRI CHINCHWAD EDUCATION TRUST's</h5>
                                         <h3>PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h3>
-                                        <p>Permanently Affiliated to Savitribai Phule Pune University (SPPU), Approved by AICTE, An ISO 9001:2015 Certified College.</p>
+                                        <h3 align="center">Department of MCA</h3>
                                     </div>
-                                    <img src="img/mcasa2.png" alt="College Logo" class="college-logo">
+                                    
+                                    <img src="img/mcasa.png" alt="College Logo" class="college-logo" style="margin-left: 50px;">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6">
@@ -100,6 +101,8 @@
         .college-logo {
             width: 80px;
             margin-bottom: 10px;
+            margin-left: 0;
+            margin-right: 0;
         }
         .college-name h5, .college-name h3, .college-name p {
             margin: 0;
@@ -107,7 +110,6 @@
         }
         .college-name h3 {
             font-size: 1.5rem;
-            font-weight: bold;
         }
         .college-name p {
             font-size: 0.9rem;
@@ -162,6 +164,13 @@
                 background: black !important; /* Change the menu lines to black */
             }
         }
+        @media (max-width: 768px) {
+            .college-logo {
+                margin-right: 0 !important;
+                margin-left: 0 !important;          
+            }
+        }
+        
         
     </style>
     
@@ -174,21 +183,37 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xl-12">
                         <div class="slider_text text-center">
-                            <div class="shape_1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                            <!-- <div class="shape_1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                                 <img src="img/shape/shape_1.svg" alt="">
                             </div>
                             <div class="shape_2 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
                                 <img src="img/shape/shape_2.svg" alt="">
+                            </div> -->
+                            <!-- <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">7 & 8 March, 2025</span> -->
+                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s" style="margin-top: 100px;">Insperia  2025</h3>
+                            <!-- <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">MCA Deptartment, PCCoE</p> -->
+                            <div class="event-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                <img src="img/insperia.png" alt="Event Logo">
                             </div>
-                            <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">7 & 8 March, 2025</span>
-                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Insperia  2025</h3>
-                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">MCA Deptartment, PCCoE</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <style>
+        .event-logo {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Adjust spacing between text and logo */
+        }
+        
+        .event-logo img {
+            width: 300px;  /* Adjust size */
+            height: auto;  /* Maintain aspect ratio */
+        }
+        
+    </style>
     <!-- slider_area_end -->
 
     <!-- Events card area start  -->
@@ -287,11 +312,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 col-md-6">
                     <div class="about_thumb">
-                        <div class="shap_3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+                        <!-- <div class="shap_3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
                             <img src="img/shape/shape_3.svg" alt="">
-                        </div>
+                        </div> -->
                         <div class="thumb_inner  wow fadeInUp img-size" data-wow-duration="1s" data-wow-delay=".3s">
-                            <img src="img/about/about.jpeg">
+                            <img src="img/about/10.png">
                         </div>
                     </div>
                 </div>
@@ -493,7 +518,7 @@
                             <div class="address_details text-center">
                                 <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">7th & 8th March, 2025 </h4>
                                 <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">MCA Deptartment</h3>
-                                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Pimpri Chinchwad College of Engineering, Nigid ,Pune</p>
+                                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Pimpri Chinchwad College of Engineering, Nigdi ,Pune</p>
                                 <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Register</a>
                             </div>
                         </div>
@@ -547,6 +572,67 @@
 
 
     <script src="js/main.js"></script>
+
+    <div class="social-media-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/pccoemcasa?igsh=cnd1bTgzc2xxajM=" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </div>
+<style>
+    .social-media-icons {
+        position: fixed;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        z-index: 1000;
+    }
+    
+    .social-media-icons a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: #007bff;
+        color: white;
+        font-size: 20px;
+        border-radius: 50%;
+        text-decoration: none;
+        transition: background 0.3s;
+    }
+    
+    .social-media-icons a:hover {
+        background: #0056b3;
+    }
+    @media (max-width: 768px) {
+        .social-media-icons {
+            right: 5px; /* Adjust position for small screens */
+        }
+    
+        .social-media-icons a {
+            width: 35px;
+            height: 35px;
+            font-size: 18px; /* Slightly smaller icons */
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .social-media-icons {
+            right: 2px;
+        }
+    
+        .social-media-icons a {
+            width: 30px;
+            height: 30px;
+            font-size: 16px;
+        }
+    }
+        
+</style>    
 </body>
 
 </html>
